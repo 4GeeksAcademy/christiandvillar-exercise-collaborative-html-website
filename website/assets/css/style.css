@@ -1,3 +1,73 @@
 body{
     background: #BDBDBD;
 }
+/* Navbar Styles */
+.navbar {
+    background-color: #000; /* Negro */
+    padding: 1em;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+    margin-right: 15px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: lightgray;
+}
+
+/* Contact Section Styles */
+#contact-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+#contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
